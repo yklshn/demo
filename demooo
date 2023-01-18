@@ -1,0 +1,18 @@
+import numpy as np
+import time
+# Program to multiply two matrices using np.dot()
+
+# 3 x 3 matrix
+start = (time.time()*1000)
+X = [[1, 2],[3, 4]]
+
+# 3 x 4 matrix
+Y = [[1, 2],[3, 4]]
+
+# Result is a 3 x 4 matrix
+result = np.dot(X,Y)
+
+print(result)
+
+end = (time.time()*1000)
+print("Execution time of the program is- ", end-start)
